@@ -61,6 +61,12 @@ img {
     text-transform: uppercase;
 }
 
+#stage-caption p, h1 {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+}
+
 .feature-content {
     padding: 8rem 0;
     overflow: hidden;
@@ -112,13 +118,21 @@ img {
 }
 
 .Bud {
-    background: url('img/1stProject.png') center center no-repeat;
+    background: url('img/gabebrand3.jpg') center center no-repeat;
     background-size: cover;
     color: white;
-    height: 100%;
+    height: 50%;
     width: 100%;
     display: flex;
     align-items: center;
+}
+
+.text-box {
+
+background-color: rgba(0, 0, 0, 0.5);
+color: #fff;
+display: inline;
+padding: 10px;
 }
 
 /* Media Queries */
