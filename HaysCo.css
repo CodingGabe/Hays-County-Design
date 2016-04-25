@@ -62,9 +62,15 @@ img {
 }
 
 #stage-caption p, h1 {
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #fff;
-    padding: 10px;
+    color: white;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5)
+}
+
+#stage #stage-caption {
+    max-width: 40rem;
+    background: rgba(255,255,255,0.2);
+    padding: 2rem;
+    color: white;
 }
 
 .feature-content {
@@ -129,11 +135,36 @@ img {
 
 .text-box {
 
-background-color: rgba(0, 0, 0, 0.5);
-color: #fff;
-display: inline;
-padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    display: inline;
+    padding: 10px;
+    
 }
+
+.throne {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: #f7f7f7;
+}
+
+.card {
+    float: left;
+    width: 33.333%;
+    padding: .75rem;
+    margin-bottom: 2rem;
+    border: 0;
+}
+
+.card > img {
+    margin-bottom: .75rem;
+    max-width: 100%;
+}
+
+.card-text {
+    font-size: 85%;
+}
+
 
 /* Media Queries */
 
