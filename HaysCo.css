@@ -22,6 +22,7 @@ h6 {
     letter-spacing: 0.1rem;
 }
 
+
 img {
     max-width: 100%;
 }
@@ -163,6 +164,65 @@ img {
 
 .card-text {
     font-size: 85%;
+}
+
+.socialbtns, .socialbtns ul, .socialbtns li {
+    margin: 0;
+    padding: 5px;
+}
+
+.socialbtns li {
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.socialbtns .fa {
+    color: #FFF;
+    text-shadow: 1px 1px 0px #000,
+            1px -1px 0px #000,
+            -1px 1px 0px #000,
+            -1px -1px 0px #000;
+    -webkit-text-shadow: 1px 1px 0px #000,
+            1px -1px 0px #000,
+            -1px 1px 0px #000,
+            -1px -1px 0px #000;
+    -moz-text-shadow: 1px 1px 0px #000,
+            1px -1px 0px #000,
+            -1px 1px 0px #000,
+            -1px -1px 0px #000;
+    -o-text-shadow: 1px 1px 0px #000,
+            1px -1px 0px #000,
+            -1px 1px 0px #000,
+            -1px -1px 0px #000;
+    transition: all ease-out 0.5s;
+    -moz-transition: all ease-out 0.5s;
+    -webkit-transition: all ease-out 0.5s;
+    -o-transition: all ease-out 0.5s;
+}
+
+.socialbtns .fa:hover {
+    color: #000;
+    text-shadow: 1px 1px 0px #fff,
+            1px -1px 0px #fff,
+            -1px 1px 0px #fff,
+            -1px -1px 0px #fff;
+    -webkit-text-shadow: 1px 1px 0px #fff,
+            1px -1px 0px #fff,
+            -1px 1px 0px #fff,
+            -1px -1px 0px #fff;
+    -moz-text-shadow: 1px 1px 0px #fff,
+            1px -1px 0px #fff,
+            -1px 1px 0px #fff,
+            -1px -1px 0px #fff;
+    -o-text-shadow: 1px 1px 0px #fff,
+            1px -1px 0px #fff,
+            -1px 1px 0px #fff,
+            -1px -1px 0px #fff;
+    transition: all ease 0.5s;
+    -moz-transition: all ease-in 0.5s;
+    -webkit-transition: all ease-in 0.5s;
+    -o-transition: all ease-in 0.5s;
+    text-decoration: none;
 }
 
 
