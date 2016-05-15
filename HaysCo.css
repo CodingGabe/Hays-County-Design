@@ -1,5 +1,10 @@
 /* Hays Co CSS */
 
+/* Brand Colors 
+#1f3077
+#772424
+*/
+
 html,
 body {
     height: 100%;
@@ -11,8 +16,14 @@ body {
     color: #6c6f73;
 }
 
+.navbar-brand img {
+    height: 50px;
+    padding: 0;
+    margin: 0;
+}
+
 h1,h2,h3,h4,h5 {
-    color: #333
+    color: #333;
 }
 
 h6 {
@@ -74,6 +85,28 @@ img {
     color: white;
 }
 
+.center {
+    text-align: center;
+}
+
+.center img {
+    padding: 0;
+    margin-bottom: -5rem;
+    margin-top: -5rem;
+}
+
+.marg-top {
+    margin-top: 5rem;
+}
+
+.marg-bottom {
+    margin-bottom: 5em;
+}
+
+.brand-color {
+    color: #1f3077;
+}
+
 .feature-content {
     padding: 8rem 0;
     overflow: hidden;
@@ -89,6 +122,18 @@ img {
 }
 
 .feature-dark h2 {
+    color: white;
+}
+
+#service {
+    background-color: #222;
+}
+
+#service h2,h3,h4 {
+    color: white;
+}
+
+.white {
     color: white;
 }
 
